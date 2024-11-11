@@ -1,0 +1,6 @@
+#dependency
+**node_modules
+
+#misc
+yarn-debug.log*
+npm-debug.log*
