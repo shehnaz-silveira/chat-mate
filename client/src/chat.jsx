@@ -1,5 +1,5 @@
 import React from "react";
-import { ApolloClient, InMemoryCache, ApolloProvider,useQuery, useMutation, gql,useSubscription } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider, useMutation, gql,useSubscription } from '@apollo/client';
 import { Container, Row, Col, FormInput, Button } from "shards-react";
 
 import { WebSocketLink } from "@apollo/client/link/ws";
@@ -64,7 +64,7 @@ const Messages = ({user})=>{
               )}
               <div
                 style={{
-                  background: user === messageUser ? "blue" : "#e5e6ea",
+                  background: user === messageUser ? "green" : "#e5e6ea",
                   color: user === messageUser ? "white" : "black",
                   padding: "1em",
                   borderRadius: "1em",

@@ -1,5 +1,5 @@
 {
-  "name": "wp5-starter-react",
+  "name": "home-page",
   "version": "1.0.1",
   "scripts": {
     "build": "webpack --mode production",
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "author": {
-    "name": "shehnaz"
+    "name": "Shehnaz"
   },
   "devDependencies": {
     "@babel/core": "7.13.15",
@@ -24,16 +24,15 @@
     "css-loader": "^5.2.1",
     "html-webpack-plugin": "^5.3.1",
     "style-loader": "2.0.0",
-    "webpack": "^5.96.1",
+    "webpack": "^5.97.1",
     "webpack-cli": "4.6.0",
-    "webpack-dev-server": "3.11.2"
+    "webpack-dev-server": "^3.11.3"
   },
   "dependencies": {
-    "@apollo/client": "^3.11.10",
     "@babel/runtime": "^7.13.10",
     "bootstrap": "^5.3.3",
-    "graphql": "^16.9.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.10.9",
     "react-dom": "^17.0.2"
   }
 }
